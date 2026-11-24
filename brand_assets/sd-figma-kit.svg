@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320">
+  <!-- Набор SD для игры в Figma: 4 группы, каждая буква - редактируемый векторный путь.
+       Импорт в Figma: перетащить файл на холст, разгруппировать (Ctrl+Shift+G). -->
+  <defs>
+    <linearGradient id="sdGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8d72ff"/>
+      <stop offset="1" stop-color="#5a3de0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- === Вариант 1: круглые концы (мягкий) === -->
+  <g fill="none" stroke="url(#sdGrad)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" transform="translate(10,10)">
+    <path d="M 84 34 C 84 20 70 13 54 13 C 34 13 22 23 22 36 C 22 49 34 55 50 59 C 68 64 84 70 84 86 C 84 103 68 113 48 113 C 30 113 20 105 20 92"/>
+    <path d="M 118 13 L 118 113"/>
+    <path d="M 118 21 C 180 21 202 38 202 63 C 202 88 180 105 118 105"/>
+  </g>
+
+  <!-- === Вариант 2: плоские срезы (технический) === -->
+  <g fill="none" stroke="url(#sdGrad)" stroke-width="22" stroke-linecap="butt" stroke-linejoin="miter" transform="translate(300,10)">
+    <path d="M 84 34 C 84 20 70 13 54 13 C 34 13 22 23 22 36 C 22 49 34 55 50 59 C 68 64 84 70 84 86 C 84 103 68 113 48 113 C 30 113 20 105 20 92"/>
+    <path d="M 118 13 L 118 113"/>
+    <path d="M 118 21 C 180 21 202 38 202 63 C 202 88 180 105 118 105"/>
+  </g>
+
+  <!-- === Только S: круглый и срез === -->
+  <g fill="none" stroke="url(#sdGrad)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" transform="translate(10,165)">
+    <path d="M 84 34 C 84 20 70 13 54 13 C 34 13 22 23 22 36 C 22 49 34 55 50 59 C 68 64 84 70 84 86 C 84 103 68 113 48 113 C 30 113 20 105 20 92"/>
+  </g>
+  <g fill="none" stroke="url(#sdGrad)" stroke-width="22" stroke-linecap="butt" stroke-linejoin="miter" transform="translate(160,165)">
+    <path d="M 84 34 C 84 20 70 13 54 13 C 34 13 22 23 22 36 C 22 49 34 55 50 59 C 68 64 84 70 84 86 C 84 103 68 113 48 113 C 30 113 20 105 20 92"/>
+  </g>
+
+  <!-- === Только D: круглый и срез === -->
+  <g fill="none" stroke="url(#sdGrad)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" transform="translate(300,165)">
+    <path d="M 14 13 L 14 113"/>
+    <path d="M 14 21 C 76 21 98 38 98 63 C 98 88 76 105 14 105"/>
+  </g>
+  <g fill="none" stroke="url(#sdGrad)" stroke-width="22" stroke-linecap="butt" stroke-linejoin="miter" transform="translate(440,165)">
+    <path d="M 14 13 L 14 113"/>
+    <path d="M 14 21 C 76 21 98 38 98 63 C 98 88 76 105 14 105"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Фавикон Skoromnova Design: знак SD в прозрачной рамке с обводкой в цвет знака -->
+  <g fill="none" stroke="#8d72ff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" transform="translate(8,18) scale(0.22)">
+    <path d="M121 45C121 45 95.9908 45 79.6597 45C59.2459 45 47.9962 59 54.9977 75.5C61.9993 92 94.0003 91.5 102.498 96"/>
+    <path d="M52.6608 145.5C52.6608 145.5 84.6683 145.5 100.999 145.5C121.413 145.5 124.406 127 120.834 114.5C117.262 102 102.206 94 94.5009 94"/>
+    <path d="M155 83V145"/>
+    <path d="M155 45C217 45 239 65.2381 239 95C239 124.762 217 145 155 145"/>
+  </g>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="14" fill="none" stroke="#8d72ff" stroke-width="3"/>
+</svg>
