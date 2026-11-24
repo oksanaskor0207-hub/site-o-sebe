@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Вердикт дебатов — 4 персоны о бизнес-идее · Оксана</title>
+<style>
+@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:400;src:url('fonts/onest-cyrillic-400-normal.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:400;src:url('fonts/onest-latin-400-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:600;src:url('fonts/onest-cyrillic-600-normal.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:600;src:url('fonts/onest-latin-600-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:800;src:url('fonts/onest-cyrillic-800-normal.woff2') format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:800;src:url('fonts/onest-latin-800-normal.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+:root{
+  --bg:#0a0a12; --panel:#12121e; --panel2:#171728;
+  --text:#eceaff; --soft:#b9b6d9; --muted:#8b88ab;
+  --violet:#8b5cf6; --violet-bright:#a78bfa; --green:#34d399; --amber:#fbbf24; --red:#f87171;
+  --border:rgba(167,139,250,.16);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Onest',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:32px 18px 64px}
+.wrap{max-width:880px;margin:0 auto}
+.kicker{font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--violet-bright);margin-bottom:12px}
+h1{font-size:clamp(26px,4.5vw,40px);font-weight:800;line-height:1.15;letter-spacing:-.015em;margin-bottom:14px}
+.sub{color:var(--soft);font-size:16px;max-width:640px;margin-bottom:34px}
+.personas{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px}
+.persona{font-size:13.5px;font-weight:600;padding:8px 16px;border-radius:999px;border:1px solid var(--border);background:var(--panel)}
+.persona b{color:var(--violet-bright)}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:18px;padding:26px 26px 20px;margin-bottom:18px}
+.card h2{font-size:19px;font-weight:800;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.dot.g{background:var(--green)}.dot.a{background:var(--amber)}.dot.r{background:var(--red)}.dot.v{background:var(--violet-bright)}
+ul{list-style:none}
+li{position:relative;padding-left:24px;margin-bottom:11px;color:var(--soft);font-size:15px}
+li b{color:var(--text)}
+li::before{content:"";position:absolute;left:6px;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--violet)}
+.quote{background:var(--panel2);border-left:3px solid var(--violet);border-radius:0 12px 12px 0;padding:14px 18px;margin:6px 0 14px;color:var(--soft);font-size:14.5px;font-style:italic}
+.quote b{color:var(--text);font-style:normal}
+footer{margin-top:40px;padding-top:22px;border-top:1px solid var(--border);color:var(--muted);font-size:13.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+footer a{color:var(--violet-bright);text-decoration:none}
+@media(max-width:560px){.card{padding:20px 18px 14px}body{padding:22px 14px 48px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="kicker">Предобучение 18 · Команды агентов</div>
+  <h1>Вердикт дебатов: 4 персоны о&nbsp;моей бизнес-идее</h1>
+  <p class="sub">Сайты для малого бизнеса по всей России · 15-25 тыс. ₽ за сайт + сопровождение 1-3 тыс. ₽/мес · УТП - визуал и UX/UI. Три раунда спора - и честный вердикт.</p>
+
+  <div class="personas">
+    <span class="persona"><b>1</b> Скептичный бизнесмен 45+</span>
+    <span class="persona"><b>2</b> Конкурент-фрилансер</span>
+    <span class="persona"><b>3</b> Бухгалтер</span>
+    <span class="persona"><b>4</b> Маркетолог</span>
+  </div>
+
+  <div class="card">
+    <h2><span class="dot g"></span>Что цепляет</h2>
+    <ul>
+      <li><b>Демо до оплаты + скорость</b> (сайт за неделю-10 дней) - у конкурентов такого нет</li>
+      <li><b>Честные рельсы:</b> домен на клиента, выход без потерь - редкость, сразу доверие</li>
+      <li><b>Сопровождение за копейки</b> - «свой айтишник» для микробизнеса, стабильная подписка</li>
+      <li><b>Визуал выше рынка шаблонов</b> - убедительно, если показать два демо рядом</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="dot a"></span>Что смущает</h2>
+    <ul>
+      <li><b>Язык продаж:</b> «UX/UI» бизнесмену 45+ ни о чём - продавать надо «звонки и спокойствие»</li>
+      <li><b>Холодный поиск медленный:</b> Карты и Авито дадут 1-2 клиентов, первые кейсы - дёшево ради отзывов</li>
+      <li><b>Нет лимита правок</b> в сопровождении - без границ сама себя загонит</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="dot r"></span>Что переоценено</h2>
+    <ul>
+      <li><b>Скорость набора 10 клиентов</b> - реальный горизонт 6-12 месяцев, не быстрее</li>
+      <li><b>«Дизайн» как самостоятельный аргумент</b> - работает только в паре с демо</li>
+      <li><b>Безлимитное сопровождение</b> - сразу фиксировать объём (например, до 3 правок/мес)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="dot v"></span>Главный улов</h2>
+    <div class="quote">«Показал мне <b>мой</b> сайт на следующий день + могу уйти с ним в любой момент - плачу 15 тысяч и 2 тысячи в месяц» <b>- Бизнесмен 45+</b></div>
+    <div class="quote">«Настоящее УТП - не "дизайн", а <b>демо до оплаты</b>. Никто из "сайтов за 8 тысяч" так не делает» <b>- Маркетолог</b></div>
+  </div>
+
+  <footer>
+    <span>Скоромнова Оксана · самозанятая · Мыски → вся Россия</span>
+    <a href="index.html">site-o-sebe →</a>
+  </footer>
+
+</div>
+</body>
+</html>
